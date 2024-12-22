@@ -96,7 +96,7 @@ function prepareGifts(gifts) {
 
 **Código:**
 
-- Igual de eficiente que usar `Set` pero menos legible.
+- Menos eficiente que `Set` debido al `indexOf`.
 
 ```javascript
 function prepareGifts(gifts) {
