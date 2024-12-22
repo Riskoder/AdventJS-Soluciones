@@ -44,7 +44,7 @@ function prepareGifts(gifts) {
 
 **Complejidad:**
 
-- Time complexity: `O(n²)` debido al `includes()` dentro de `Filter()`.
+- Time complexity: `O(n²)` debido al `includes()` dentro de `reduce()`.
 - Space complexity: `O(n)`donde `n` es el número de elementos únicos almacenados en el array de `reduce()`.
 
 **Código:**
